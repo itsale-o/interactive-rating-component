@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 350px;
+    height: 390px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#star-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 13px;
+    background-color: rgb(124, 135, 152, .18);
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+#text{
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+#rating-numbers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.number{ 
+    color: hsl(217, 12%, 63%);
+    border: none;
+    cursor: pointer;   
+    padding: 15px 18px 12px 18px;
+    border-radius: 100%;
+    background-color: rgb(124, 135, 152, .18);  
+}
+
+.number:hover{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.number:focus{
+    color: white;
+    background-color: hsl(25, 97%, 53%);   
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+    width: 300px;
+    height: 42px;
+    padding-top: 4px;
+}
+
+.submit-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;   
+}
+
+.hidden{
+    display: none;
+}
+
+#ty-illustration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+#ty-illustration >img{
+    width: 180px;
+    margin: 20px 0 35px 0;
+}
+
+#ty-illustration > p{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 14px 5px 14px;
+    background-color: rgb(124, 135, 152, .18);
+    color: hsl(25, 97%, 53%);
+}
+
+#ty-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+#ty-msg > .title{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#ty-msg > .msg{
+    padding: 0 7px 0 7px;
+    font-size: 13px;
+    color: hsl(217, 12%, 63%);
+}
+
+.attribution{
+    color: hsl(217, 12%, 63%);
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(25, 97%, 53%);;
+}
