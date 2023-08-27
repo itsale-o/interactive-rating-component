@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution on Frontend Mentor: 
-- Live Site URL: 
+- Solution on Frontend Mentor: [Link](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-B5Gehuiar4)
+- Live Site URL: [Link](https://itsale-o.github.io/interactive-rating-component/)
 
 ## My process
 
